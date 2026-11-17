@@ -3,49 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SufiCast — Coming soon</title>
-<meta name="description" content="SufiCast: conversations and reflections on the Sufi path. Coming soon.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%230f2a2e'/><path d='M30 62a20 20 0 1 0 0-24' stroke='%23d8b56a' stroke-width='6' fill='none' stroke-linecap='round'/></svg>">
+<title>SufiCast · Coming soon</title>
+<meta name="description" content="SufiCast: Sufi wisdom, poetry and spiritual traditions, through podcasts and audio storytelling. Coming soon.">
+<meta name="theme-color" content="#02372e">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:title" content="SufiCast">
+<meta property="og:description" content="Sufi wisdom, poetry and spiritual traditions, through podcasts and audio storytelling. Coming soon.">
+<meta property="og:image" content="https://suficast.com/og.jpg">
+<meta property="og:url" content="https://suficast.com/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  :root { --bg:#0f2a2e; --bg2:#0a1d20; --ink:#f3ecdc; --muted:#b9b3a3; --gold:#d8b56a; }
+  :root { --bg:#02372e; --ink:#f9ebce; --muted:#cfc6b1; }
   * { box-sizing:border-box; margin:0; padding:0; }
-  html, body { height:100%; }
   body {
     min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    padding:48px 20px; text-align:center; color:var(--ink);
-    background: radial-gradient(ellipse at 50% 35%, #17393e 0%, var(--bg) 45%, var(--bg2) 100%);
+    padding:32px 16px 72px; text-align:center; color:var(--ink); background:var(--bg);
     font-family: Inter, system-ui, -apple-system, sans-serif;
   }
-  .mark { width:84px; height:84px; margin-bottom:28px; }
-  .mark circle { fill:none; stroke:var(--gold); stroke-width:1.5; opacity:.5; }
-  .wave rect { fill:var(--gold); transform-origin:center; animation:pulse 2.4s ease-in-out infinite; }
-  .wave rect:nth-child(2){animation-delay:.2s} .wave rect:nth-child(3){animation-delay:.4s}
-  .wave rect:nth-child(4){animation-delay:.6s} .wave rect:nth-child(5){animation-delay:.8s}
-  @keyframes pulse { 0%,100%{transform:scaleY(.5)} 50%{transform:scaleY(1)} }
-  @media (prefers-reduced-motion: reduce){ .wave rect{animation:none} }
-  h1 { font-family:"Cormorant Garamond", Georgia, serif; font-weight:600; font-size:clamp(2.6rem,8vw,4.2rem); letter-spacing:.02em; }
-  .tag { margin-top:10px; font-family:"Cormorant Garamond", Georgia, serif; font-size:clamp(1.15rem,3.5vw,1.45rem); color:var(--muted); font-style:italic; }
-  .divider { width:56px; height:1px; background:var(--gold); opacity:.7; margin:32px auto; }
-  .soon { font-size:.8rem; letter-spacing:.32em; text-transform:uppercase; color:var(--gold); }
-  p.lead { max-width:460px; margin-top:18px; line-height:1.7; color:var(--muted); font-size:1rem; }
-  footer { position:absolute; bottom:20px; font-size:.75rem; color:#7f8a86; letter-spacing:.05em; }
+  h1 { line-height:0; }
+  .logo { width:min(320px, 70vw); height:auto; display:block; }
+  .tag { margin-top:22px; font-family:"Cormorant Garamond", Georgia, serif; font-style:italic; font-size:clamp(1.2rem,3.6vw,1.5rem); color:var(--ink); opacity:.9; }
+  .divider { width:56px; height:1px; background:var(--ink); opacity:.5; margin:28px auto; }
+  .soon { font-size:.8rem; letter-spacing:.32em; text-transform:uppercase; color:var(--ink); }
+  p.lead { max-width:460px; margin-top:16px; line-height:1.7; color:var(--muted); font-size:1rem; }
+  footer { position:absolute; bottom:20px; font-size:.75rem; color:var(--muted); opacity:.7; letter-spacing:.05em; }
+  body { position:relative; }
 </style>
 </head>
 <body>
-  <svg class="mark" viewBox="0 0 84 84" aria-hidden="true">
-    <circle cx="42" cy="42" r="40"/>
-    <g class="wave">
-      <rect x="25" y="32" width="4" height="20" rx="2"/>
-      <rect x="33" y="24" width="4" height="36" rx="2"/>
-      <rect x="40" y="18" width="4" height="48" rx="2"/>
-      <rect x="47" y="24" width="4" height="36" rx="2"/>
-      <rect x="55" y="32" width="4" height="20" rx="2"/>
-    </g>
-  </svg>
-  <h1>SufiCast</h1>
+  <h1><img class="logo" src="/logo.webp" width="640" height="637" alt="SufiCast"></h1>
   <p class="tag">Voices from the path of the heart</p>
   <div class="divider"></div>
   <p class="soon">Coming soon</p>
